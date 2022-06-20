@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import './App_2.css'
+import "./App_2.css";
+import upvote from "../images/upvote.svg";
 
 class Product extends Component {
   render(props) {
@@ -7,7 +8,9 @@ class Product extends Component {
       <div className="item">
         <div className="description">
           <a>{this.props.title}</a>
-          <p>Vote: {this.props.vote}</p>
+          <p>
+            <img className="upvote" src={upvote} /> {this.props.vote}
+          </p>
           <p>{this.props.description}</p>
         </div>
       </div>
