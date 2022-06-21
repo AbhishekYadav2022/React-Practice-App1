@@ -18,7 +18,7 @@ export const products = [
     description: "Intel i5 is best for simple works.",
   },
   {
-    id: 3,
+    id: 4,
     vote:35,
     title: "Samsung",
     description: "Lorem Ipsum Dolor.",

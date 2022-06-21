@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.appName{
+    border-bottom: 2px solid rgb(165, 165, 165);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.appName h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+.card{
+    border: 2px solid rgb(165, 165, 165);
+    width: 300px;
+    border-radius: 10px;
+    margin: 25px;
+}
+.content{
+    padding: .6rem;
+}
+.card h2{
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card h3{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(142, 142, 142);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card p{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 650;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.icons{
+    height: 25px;
+    text-align: right;
+}
+.icons img{
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+button{
+    border: 2px solid rgb(0, 168, 0);
+    color: rgb(0, 168, 0);
+    width: 100%;
+    background: none;
+    font-size: 1.2rem;
+    padding: 8px;
+    cursor: pointer;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+/* Plus Icon  */
+.plusIcon{
+    height: 60px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.plusIcon:hover{
+    transform: rotateZ(180deg);
+}
